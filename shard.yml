@@ -1,0 +1,8 @@
+name: fiber-safe-mutex
+version: 0.1.0
+
+authors:
+  - technorama
+  - Guilherme J. Tramontina <guilherme.tramontina@gmail.com>
+
+license: MIT
