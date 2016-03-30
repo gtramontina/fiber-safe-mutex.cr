@@ -2,7 +2,8 @@
 
 This shard exists so we can use [`Mutex`](http://crystal-lang.org/api/Mutex.html) on a [`Fiber`](http://crystal-lang.org/api/Fiber.html) (spawn) dependent lib/project [`crystal#1612`](https://github.com/manastech/crystal/pull/1612) or [`crystal#1399`](https://github.com/manastech/crystal/pull/1399).
 
-**Note**: When/if those PR get merged, this shard can go deprecated.
+**Note**: ~~When/if those PR get merged, this shard can go deprecated.~~ A fiber-safe mutex implementation [landed](https://github.com/crystal-lang/crystal/blob/master/CHANGELOG.md#0140-2016-03-21) on Crystal `0.14.0`. This shard is now ***deprecated***.
+
 
 It was extracted directly from @technorama's PR on Crystal: https://github.com/manastech/crystal/pull/1399
 
